@@ -15,8 +15,8 @@ INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
   ('tabac',0,'recrue','Tabagiste',400,'{}','{}'),
-  ('tabac',1,'gerant','Gérant',650,'{}','{}'),
-  ('tabac',2,'boss','Patron',800,'{}','{}');
+  ('tabac',1,'gerant','Gérant(e)',650,'{}','{}'),
+  ('tabac',2,'boss','PDG',1200,'{}','{}');
 
 INSERT INTO `items` (name, label) VALUES
   ('tabacblond', 'Tabac Blond'),
